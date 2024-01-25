@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    background-color: fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 10% auto;
+    width: 600px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input[type="text"]{
+    width: 60%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+form input[type='submit']{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    width: 20%;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+form input[type='submit']:hover{
+    background-color: #0062cc;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img{
+    width: 100px;
+    height: 100px;
+    box-sizing: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.temprature{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+.add-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.add-info > div {
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    flex: 1;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 45px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
