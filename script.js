@@ -22,7 +22,7 @@ locateMeBtn.addEventListener('click', (e)=>{
 })
 
 function geoCodetoLoc(lat, lon){
-    const url = `http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&limit=1&appid=${apiKey}`
+    const url = `https://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&limit=1&appid=${apiKey}`
     fetch(url).then(response=> response.json()).then((data)=>{
         getWeatherData(data[0].name)
     })
